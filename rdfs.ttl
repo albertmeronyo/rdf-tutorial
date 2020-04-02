@@ -1,0 +1,15 @@
+@prefix :     <http://www.example.org/sample.rdfs#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+:Dog      rdfs:subClassOf :Animal.
+:Person   rdfs:subClassOf :Animal.
+
+:hasChild rdfs:range :Animal;
+          rdfs:domain :Animal.
+:hasSon   rdfs:subPropertyOf :hasChild.
+
+:Max      a :Dog.
+:Abel     a :Person.
+:Adam     a :Person;
+          :hasSon :Abel.
