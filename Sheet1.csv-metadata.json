@@ -1,0 +1,305 @@
+{
+ "dialect": {
+  "quoteChar": "\"", 
+  "delimiter": ",", 
+  "encoding": "ascii"
+ }, 
+ "dcat:keyword": [], 
+ "dc:license": {
+  "@id": "http://opendefinition.org/licenses/cc-by/"
+ }, 
+ "dc:publisher": {
+  "schema:name": "CLARIAH Structured Data Hub - Datalegend", 
+  "schema:url": {
+   "@id": "http://datalegend.net"
+  }
+ }, 
+ "url": "Sheet1.csv", 
+ "@context": [
+  "http://csvw.clariah-sdh.eculture.labs.vu.nl/csvw.json", 
+  {
+   "@base": "https://iisg.amsterdam/", 
+   "@language": "en"
+  }, 
+  {
+   "owl": "http://www.w3.org/2002/07/owl#", 
+   "napp-eng81": "https://iisg.amsterdam/napp/dataset/englandwales1881/", 
+   "dbo": "http://dbpedia.org/ontology/", 
+   "clioctr": "https://iisg.amsterdam/clio/country/", 
+   "hisclass": "https://iisg.amsterdam/hisclass/", 
+   "hisco-product": "https://iisg.amsterdam/hisco/product/", 
+   "ldp": "http://www.w3.org/ns/ldp#", 
+   "clio": "https://iisg.amsterdam/clio/", 
+   "occhisco": "https://iisg.amsterdam/napp/OCCHISCO/", 
+   "dbr": "http://dbpedia.org/resource/", 
+   "skos": "http://www.w3.org/2004/02/skos/core#", 
+   "xml": "http://www.w3.org/XML/1998/namespace/", 
+   "sdmx-concept": "http://purl.org/linked-data/sdmx/2009/concept#", 
+   "napp": "https://iisg.amsterdam/napp/", 
+   "prov": "http://www.w3.org/ns/prov#", 
+   "sdmx-code": "http://purl.org/linked-data/sdmx/2009/code#", 
+   "napp-can91": "https://iisg.amsterdam/napp/dataset/canada1891/", 
+   "hiscam": "https://iisg.amsterdam/hiscam/", 
+   "dbpedia": "http://dbpedia.org/resource/", 
+   "np": "http://www.nanopub.org/nschema#", 
+   "hisclass5": "https://iisg.amsterdam/hisclass5/", 
+   "canfam-auke": "https://iisg.amsterdam/canfam/auke/", 
+   "dcterms": "http://purl.org/dc/terms/", 
+   "schema": "http://schema.org/", 
+   "microheights": "https://iisg.amsterdam/microheights/", 
+   "sdv": "https://iisg.amsterdam/vocab/", 
+   "hisco": "https://iisg.amsterdam/hisco/", 
+   "bibo": "http://purl.org/ontology/bibo/", 
+   "sdmx-dimension": "http://purl.org/linked-data/sdmx/2009/dimension#", 
+   "hsn": "https://iisg.amsterdam/hsn2013a/", 
+   "dc": "http://purl.org/dc/terms/", 
+   "hisco-relation": "https://iisg.amsterdam/hisco/relation/", 
+   "hisco-status": "https://iisg.amsterdam/hisco/status/", 
+   "dbp": "http://dbpedia.org/property/", 
+   "clioprop": "https://iisg.amsterdam/clio/property/", 
+   "csvw": "http://www.w3.org/ns/csvw#", 
+   "clioind": "https://iisg.amsterdam/clio/indicator/", 
+   "dc11": "http://purl.org/dc/elements/1.1/", 
+   "sdr": "https://iisg.amsterdam/", 
+   "qb": "http://purl.org/linked-data/cube#", 
+   "canfam-dimension": "http://data.socialhistory.org/vocab/canfam/dimension/", 
+   "rdfs": "http://www.w3.org/2000/01/rdf-schema#", 
+   "canfam": "https://iisg.amsterdam/canfam/dataset/canada1901/", 
+   "napp-sct81": "https://iisg.amsterdam/napp/dataset/scotland1881/", 
+   "sdmx-measure": "http://purl.org/linked-data/sdmx/2009/measure#", 
+   "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#", 
+   "foaf": "http://xmlns.com/foaf/0.1/", 
+   "xsd": "http://www.w3.org/2001/XMLSchema#", 
+   "time": "http://www.w3.org/2006/time#", 
+   "napp-dimension": "http://data.socialhistory.org/vocab/napp/dimension/"
+  }
+ ], 
+ "dc:title": "Sheet1.csv", 
+ "@id": "https://iisg.amsterdam/Sheet1.csv", 
+ "dc:modified": {
+  "@value": "2019-04-10", 
+  "@type": "xsd:date"
+ }, 
+ "tableSchema": {
+  "aboutUrl": "{_row}", 
+  "primaryKey": "study_ID", 
+  "columns": [
+   {
+    "datatype": "string", 
+    "titles": [
+     "study_ID"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/study_ID", 
+    "name": "study_ID", 
+    "dc:description": "study_ID"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Author"
+    ], 
+    "@id": "http://schema.org/author", 
+    "name": "Author", 
+    "dc:description": "Author"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Year"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Year", 
+    "name": "Year", 
+    "dc:description": "Year"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     ""
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/", 
+    "name": "", 
+    "dc:description": ""
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     ""
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/", 
+    "name": "", 
+    "dc:description": ""
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Study nb"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Study_nb", 
+    "name": "Study nb", 
+    "dc:description": "Study nb"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Study ID"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Study_ID", 
+    "name": "Study ID", 
+    "dc:description": "Study ID"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "IV_description"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/IV_description", 
+    "name": "IV_description", 
+    "dc:description": "IV_description"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Level No."
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Level_No.", 
+    "name": "Level No.", 
+    "dc:description": "Level No."
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "IV (general class)"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/IV_(general_class)", 
+    "name": "IV (general class)", 
+    "dc:description": "IV (general class)"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "IV (specific)"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/IV_(specific)", 
+    "name": "IV (specific)", 
+    "dc:description": "IV (specific)"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Treatment Name"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Treatment_Name", 
+    "name": "Treatment Name", 
+    "dc:description": "Treatment Name"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Treatment Value"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Treatment_Value", 
+    "name": "Treatment Value", 
+    "dc:description": "Treatment Value"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 1"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_1", 
+    "name": "Moderator 1", 
+    "dc:description": "Moderator 1"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 1 Level"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_1_Level", 
+    "name": "Moderator 1 Level", 
+    "dc:description": "Moderator 1 Level"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 1 Value"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_1_Value", 
+    "name": "Moderator 1 Value", 
+    "dc:description": "Moderator 1 Value"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 2"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_2", 
+    "name": "Moderator 2", 
+    "dc:description": "Moderator 2"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 2 Level"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_2_Level", 
+    "name": "Moderator 2 Level", 
+    "dc:description": "Moderator 2 Level"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 2 Value"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_2_Value", 
+    "name": "Moderator 2 Value", 
+    "dc:description": "Moderator 2 Value"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 3"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_3", 
+    "name": "Moderator 3", 
+    "dc:description": "Moderator 3"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 3 Level"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_3_Level", 
+    "name": "Moderator 3 Level", 
+    "dc:description": "Moderator 3 Level"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Moderator 3 Value"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Moderator_3_Value", 
+    "name": "Moderator 3 Value", 
+    "dc:description": "Moderator 3 Value"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Agent Type"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Agent_Type", 
+    "name": "Agent Type", 
+    "dc:description": "Agent Type"
+   }, 
+   {
+    "datatype": "string", 
+    "titles": [
+     "Effect Size"
+    ], 
+    "@id": "https://iisg.amsterdam/Sheet1.csv/column/Effect_Size", 
+    "name": "Effect Size", 
+    "dc:description": "Effect Size"
+   }
+  ]
+ }
+}
